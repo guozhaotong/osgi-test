@@ -12,8 +12,6 @@
         <module>moduleone</module>
         <module>moduletwo</module>
         <module>modulecenter</module>
-        <module>modulehttptest</module>
-        <module>moduletest</module>
     </modules>
 
 
