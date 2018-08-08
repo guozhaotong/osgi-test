@@ -49,8 +49,8 @@ java -jar bin/felix.jar
 
 #### 安装 与 运行 bundle
 ```
-install ../../osgi/osgiconflicttest/moduleone/target/moduleone-1.0-SNAPSHOT.jar  
-install ../../osgi/osgiconflicttest/moduletwo/target/moduletwo-1.0-SNAPSHOT.jar
+install ../osgiconflicttest/moduleone/target/moduleone-1.0-SNAPSHOT.jar  
+install ../osgiconflicttest/moduletwo/target/moduletwo-1.0-SNAPSHOT.jar
 # 显示目前有哪些boudle
 lb
 ```

@@ -19,14 +19,11 @@ public class ModulecenterActivator implements BundleActivator {
 
         helloServiceReference2 = bundleContext.getServiceReference(HelloService2.class.getName());
         helloService2 = (HelloService2) bundleContext.getService(helloServiceReference2);
-        System.out.println(getString() + "success!");
+        System.out.println(helloService.output() + "success!");
+        System.out.println(helloService2.output() + "success!");
     }
 
     public void stop(BundleContext bundleContext) throws Exception {
         System.out.println("modulecenter stop!");
-    }
-
-    public String getString() {
-        return (helloService.output() + helloService2.output());
     }
 }
